@@ -34,9 +34,15 @@
     display:flex;
     flex-direction: column;
     margin:20px;
-    width:250px;
+    width:250px; 
     
+}
+input {
     
+    font:Roboto Slab;
+    font-size:16px;
+    border-radius: 4px;
+    padding:3px;
 }
 
 label {
@@ -45,15 +51,9 @@ label {
     font-weight:bold;
 }
 
-input, #dropdown {
-    
-    font:Roboto Slab;
-    font-size:16px;
-    border-radius: 4px;
-    padding:3px;
-}
 
-.submitbtn, .resetbtn {
+
+.loginbtn, .resetbtn {
    width:250px;
    border-radius: 4px;
    margin-bottom:5px;
@@ -63,7 +63,7 @@ input, #dropdown {
    cursor: pointer;
 }
 
-.submitbtn {
+.loginbtn {
     margin-top:15px;
     background-color: #A45FDF;
 border: solid #A45FDF;}
@@ -96,4 +96,10 @@ padding: 3px 30px 3px 3px;
     top:50%;
     right:4%;
     color:#AEAEB2;
+}
+
+.fpw {
+    text-decoration: none;
+    color:black;
+    font-size: 16px;
 }
